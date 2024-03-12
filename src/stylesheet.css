@@ -1,0 +1,105 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#avatar {
+    background: lightseagreen;
+    flex:1;
+    border-radius: 15px;
+    padding: 50px;
+    margin:10px;
+    height: 150px;
+    width: 150px;
+}
+
+#intro {
+    background: lightblue;
+    flex:1;
+    border-radius: 15px;
+    padding: 50px;
+    margin:10px;
+}
+
+#gallery {
+    background: lightcoral;
+    border-radius: 15px;
+    padding: 50px;
+    margin:10px;
+    height: 200px;
+}
+
+#portfolio {
+    
+    border-radius: 15px;
+    padding: 50px;
+    margin:10px;
+}
+
+#tools {
+    background: lightgoldenrodyellow;
+    border-radius: 15px;
+    padding: 50px;
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.parent-portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.portfolio-content {
+    background: lightslategray;
+    display: flex;
+    flex: 1; 
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-row > div {
+    flex: 40%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    
+  }
+
+
+
+
+   
