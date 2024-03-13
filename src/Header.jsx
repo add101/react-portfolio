@@ -3,14 +3,16 @@
 function Header(){
     return(
     <header>
+      <h2>Adrian Lamour - Web Portfolio</h2>
       <nav>
         <ul>        
-          <li>About</li>        
-          <li>Projects</li>
-          <li>Contact</li>
-          <hr></hr>
+          <li><button>About</button></li>        
+          <li><button>Projects</button></li>
+          <li><button>Contact</button></li>         
         </ul>
       </nav>
+      
+              
     </header>
     )
 }

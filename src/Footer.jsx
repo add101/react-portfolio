@@ -3,9 +3,9 @@
 function Footer(){
     return(
         <footer>
-            <p>
-                Footer
-            </p>
+             <button>Github</button>
+             <button>LinkedIn</button>
+             <button>CV</button>
         </footer>
     )
 }
