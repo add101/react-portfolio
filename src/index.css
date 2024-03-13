@@ -50,10 +50,10 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -68,17 +68,146 @@ button:focus-visible {
   }
 }
 
-header ul {
-  display: flex;
-  /* background: red; */
-  padding: 50px; 
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header ul li{
-  list-style: none; 
-  padding-left: 15px;
-} 
+header {
+  /* background: lightgreen; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* padding:20px; */
+  border-radius: 15px;
+  padding-right: 70px;
+  margin: 15px;
+}
 
-/* .wrapper {
-  width: 100%;
-} */ 
+#avatar {
+  background: lightseagreen;
+  flex:1;
+  border-radius: 15px;
+  padding: 50px;
+  margin:10px;
+  height: 150px;
+  width: 150px; 
+}
+
+.boxshadow {
+  box-shadow: 5px 5px 6px 0 rgba(120, 120, 120, 0.24);
+}
+
+#intro {
+  background: lightblue;
+  flex:1;
+  border-radius: 15px;
+  padding: 50px;
+  margin:10px;
+}
+
+#gallery {
+  background: lightcoral;
+  border-radius: 15px;
+  padding: 50px;
+  margin:10px;
+  /* background-image: url("src/assets/images/DailyPlanner.jpg"); */
+
+  min-height: 300px;
+   /*
+  width: auto; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; Resize the background image to cover the entire container */
+}
+
+#portfolio {
+  
+  border-radius: 15px;
+  padding: 50px;
+  margin:10px;
+}
+
+#tools {
+  background: lightgoldenrodyellow;
+  border-radius: 15px;
+  padding: 50px;
+  margin:10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  background: lightgray;
+  border-color: aqua;
+  border-width: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex; 
+  justify-content: space-around;
+}
+
+footer a {
+  color: rgb(42, 42, 42);
+}
+
+.row {
+  display: flex;
+}
+
+.parent-portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.portfolio-content {
+  background: lightslategray;
+  display: flex;
+  flex-direction:column;
+  /* flex: 1;  */
+  /* height: 200px; */
+  /* padding: 20px; */
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-row > div {
+  flex: 40%; 
+  /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  
+}
+
+.portfolio-content-links {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  margin-top: auto;
+  background: rgba(188, 194, 190, 50%);
+  border-radius: 0px 0px 15px 15px;
+}
+.portfolio-content-links a {
+  color: rgb(42, 42, 42);
+}
+
+.container-img {
+  object-fit: contain;
+  max-height: 100%; 
+  max-width: 100%;
+}
+
+

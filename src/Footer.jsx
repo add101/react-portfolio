@@ -3,9 +3,9 @@
 function Footer(){
     return(
         <footer>
-             <button>Github</button>
-             <button>LinkedIn</button>
-             <button>CV</button>
+             <a href="https://github.com/add101">Github</a>
+             <a href="https://www.linkedin.com/in/adrian-lamour/">LinkedIn</a>
+             <a href="">CV</a>
         </footer>
     )
 }
