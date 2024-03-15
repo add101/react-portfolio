@@ -70,36 +70,42 @@ button:focus-visible {
 
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 header {
   /* background: lightgreen; */
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   /* padding:20px; */
   border-radius: 15px;
   padding-right: 70px;
-  margin: 15px;
+  margin: 10px;
+  padding: 1px;
+  /* border: solid 1px rgb(205, 205, 205); */
+  font-family: "Ubuntu", sans-serif;
 }
 
 #avatar {
   background: lightseagreen;
-  flex:1;
+  flex:2;
   border-radius: 15px;
   padding: 50px;
   margin:10px;
-  height: 150px;
-  width: 150px; 
+  /* height: 150px;
+  width: 150px;  */
+  min-width: 150px;
 }
 
 .boxshadow {
-  box-shadow: 5px 5px 6px 0 rgba(120, 120, 120, 0.24);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 #intro {
   background: lightblue;
-  flex:1;
+  flex:5;
   border-radius: 15px;
   padding: 50px;
   margin:10px;
@@ -135,6 +141,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 footer {
@@ -149,6 +156,7 @@ footer {
   margin: 10px;
   display: flex; 
   justify-content: space-around;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 footer a {
@@ -168,7 +176,7 @@ footer a {
 }
 
 .portfolio-content {
-  background: lightslategray;
+  background: rgb(247, 247, 247);
   display: flex;
   flex-direction:column;
   /* flex: 1;  */
@@ -177,6 +185,7 @@ footer a {
   margin: 10px;
   border-radius: 15px;
   text-align: center;
+  border: solid 1px #cbcaca;  
 }
 
 .portfolio-row {
@@ -197,8 +206,9 @@ footer a {
   padding-bottom: 10px;
   padding-top: 8px;
   margin-top: auto;
-  background: rgba(188, 194, 190, 50%);
+  background-color: rgba(188, 194, 190, .2);
   border-radius: 0px 0px 15px 15px;
+  z-index: 10;  
 }
 .portfolio-content-links a {
   color: rgb(42, 42, 42);
@@ -207,7 +217,16 @@ footer a {
 .container-img {
   object-fit: contain;
   max-height: 100%; 
-  max-width: 100%;
+  max-width: 100%;  
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  
 }
 
 

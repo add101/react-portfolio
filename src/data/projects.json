@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Three.js Experiments",
+      "deployedLink": "https://add101.github.io/three.js_experiments/",
+      "repoLink": "https://github.com/add101/three.js_experiments",
+      "image": "src/assets/images/threejs.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Daily Planner",
+      "deployedLink": "https://add101.github.io/DailyPlanner/",
+      "repoLink": "https://github.com/add101/DailyPlanner",
+      "image": "src/assets/images/DailyPlanner.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "deployedLink": "https://add101.github.io/weather-dashboard/",
+      "repoLink": "https://github.com/add101/weather-dashboard",
+      "image": "src/assets/images/Weather-Dashboard.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Code Quiz",
+      "deployedLink": "https://add101.github.io/CodeQuiz/",
+      "repoLink": "https://github.com/add101/CodeQuiz",
+      "image": "src/assets/images/CodeQuiz.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Flight Flamingo",
+      "deployedLink": "https://kidleis.github.io/flight-flamingo/",
+      "repoLink": "https://github.com/KidLeiS/flight-flamingo",
+      "image": "src/assets/images/FlightFlamingo2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Code Quiz",
+      "deployedLink": "https://main--foodie-calories-quest.netlify.app/",
+      "repoLink": "https://github.com/MichalTrostowiecki/foodie-cal-quest",
+      "image": "src/assets/images/FoodieCalQuest.jpg"
+    }
+  ]
+

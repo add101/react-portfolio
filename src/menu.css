@@ -13,22 +13,22 @@ header h1 {
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    height: 100%;
+    height: 250px;
     width: 0;
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 500; /* Sit on top */
     right: 0;
     top: 0;
     background-color: rgb(22, 22, 22); /* Black fallback color */
     background-color: rgba(22, 22, 22, 0.95); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 1.7s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    transition: 0.9s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
     /* filter:blur(4px);
     -o-filter:blur(4px);
     -ms-filter:blur(4px);
     -moz-filter:blur(4px);
     -webkit-filter:blur(4px); */
-  
+    border-radius: 15px;
   }
   
   /* Position the content inside the overlay */
@@ -47,7 +47,7 @@ header h1 {
     font-size: 36px;
     color: #818181;
     display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    transition: 0.15s; /* Transition effects on hover (color) */
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -68,8 +68,8 @@ header h1 {
 #menuButton {
     z-index: 1000;
     position: fixed;
-    right: 20px;
-    top: 4%;
+    right: 50px;
+    top: 40px;
     /* border-radius: 50%; */
     box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     border-width: 1px;
