@@ -7,7 +7,7 @@ function Home(){
                 
               </section>
               <section id="intro" className="boxshadow">
-                  <p>Welcome to my Web Development Portfolio. (Work in progess) </p>  
+                  <p>Welcome to my Web Development Portfolio... (Work in progess) </p>  
               </section>
             </div>
         </div>
