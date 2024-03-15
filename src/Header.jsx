@@ -30,26 +30,13 @@ function Header() {
         <header>
             {/* The overlay */}
             <div id="myNav" className={`overlay ${isNavOpen ? 'open' : ''}`} style={{ width: isNavOpen ? '350px' : '0' }}>
-
-              
-            
-                {/* Overlay content */}
-                {/* <div className="overlay-content">
-                    <a href="#">Intro</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Contact</a>
-                   
-                </div> */}
-
                 <nav>
                     <ul>
                     <li><Link to="/" onClick={() => { closeNav(); scrollToTop(); }}>Home</Link></li>
                     <li><Link to="/gallery" onClick={() => { closeNav(); scrollToTop(); }} >Projects</Link></li>
                     <li><a href="#contact" onClick={closeNav}>Contact</a></li>
                     </ul>
-                </nav>
-        
+                </nav>        
             </div>
         
             {/* Navigation menu icon*/}
