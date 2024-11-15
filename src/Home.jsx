@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'; // Import React
 import './App.css'; // Import global CSS
 import './Home.css'; // Import  CSS
-import R3f from './R3f'; // Import the R3f component
+
 import Tools from './Tools.jsx'
 import Tools2 from './Tools2.jsx'
 // import Gallery from './Gallery.jsx'
