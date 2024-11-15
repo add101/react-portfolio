@@ -1,16 +1,25 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424;
+  background: grey; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: rgb(21, 21, 21);
+  background: white;
 }
 
 a {
@@ -68,12 +77,6 @@ button:focus-visible {
   }
 }
 
-body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
 header {
   /* background: lightgreen; */
   display: flex;
@@ -103,13 +106,6 @@ header {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-#intro {
-  background: lightblue;
-  flex:5;
-  border-radius: 15px;
-  padding: 50px;
-  margin:10px;
-}
 
 #gallery {
   background: lightcoral;
@@ -133,16 +129,6 @@ header {
   margin:10px;
 }
 
-#tools {
-  background: lightgoldenrodyellow;
-  border-radius: 15px;
-  padding: 50px;
-  margin:10px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
 
 footer {
   background: lightgray;
@@ -220,13 +206,23 @@ footer a {
   max-width: 100%;  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .row {
     display: flex; 
     flex-direction: column;
   }
 
   
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  /* min-width: 100%;  */
+  width: 100%;
+  min-height: 100%; 
+  z-index: -2;
 }
 
 

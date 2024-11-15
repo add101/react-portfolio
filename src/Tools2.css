@@ -1,0 +1,61 @@
+#tools2 {
+    /* font-size: 120%; */
+    background: rgb(59, 59, 59);
+    color: white;
+    border-radius: 15px;
+    padding: 50px;
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+
+#tools2 ul {
+    display: flex; 
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: space-between;
+} 
+
+ #tools2 li {
+    display: flex;   
+    list-style: none;
+
+    
+}
+/* 
+li button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius:20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    /* box-shadow: 2px 2px 5px rgba(0,0,0,0.5) ; */
+}
+
+li button:hover{
+    background: rgb(144, 255, 134);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    /* box-shadow: 2px 2px 5px rgba(0,0,0,0.5) ; */
+    border-color:rgb(17, 202, 0);
+    transition: box-shadow 0.1s;
+    transition: background-color 1s;
+    transition: border-color 2s;
+}
+
+li button:active{
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+} */
+
+#icon-img {
+    width: 50px;
+ height: 50px;
+}
+
+.skillsrow {
+    display: flex;
+}

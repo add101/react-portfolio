@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './menu.css';
+import './header.css';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -29,19 +29,20 @@ function Header() {
     return (
         <header>
             {/* The overlay */}
-            <div id="myNav" className={`overlay ${isNavOpen ? 'open' : ''}`} style={{ width: isNavOpen ? '350px' : '0' }}>
+            <div id="myNav" className={`overlay ${isNavOpen ? 'open' : ''}`} style={{ width: isNavOpen ? '25%' : '0' }}>
                 <nav>
                     <ul>
                     <li><Link to="/" onClick={() => { closeNav(); scrollToTop(); }}>Home</Link></li>
                     <li><Link to="/gallery" onClick={() => { closeNav(); scrollToTop(); }} >Projects</Link></li>
-                    <li><a href="#contact" onClick={closeNav}>Contact</a></li>
+                    {/* <li><a href="#contact" onClick={closeNav}>Contact</a></li> */}
                     </ul>
                 </nav>        
             </div>
         
             {/* Navigation menu icon*/}
             <button id="menuButton" onClick={toggleNav}>&#9776;</button>
-            <h1 id="heading" style={{ fontFamily: 'ubuntu' }}>Adrian Lamour - Web Portfolio</h1>
+                     
+
         </header>
     );
 }
