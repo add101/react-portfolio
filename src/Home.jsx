@@ -80,9 +80,8 @@ function HomeTop() {
         <section id="intro" className="boxshadow">
           {/* <p>Welcome to my Web Development Portfolio (Work in progress).</p> */}
           <p className="toptext">
-            Welcome! I'm a passionate and results-driven 3D Artist, Spatial Designer, Developer, Content Creator, and Educator. 
-            Using new technologies to build visuals aligned with project/brand, and client/stakeholder goals. 
-            Equipped with both creative and technical skills, I specialise in crafting presentations that communicate design information, concepts, emotion, and sense of place.
+          Welcome to My Web Development Portfolio!
+          I'm a passionate and results-driven 3D Artist, Spatial Designer, Developer, Content Creator, and Educator. I specialize in leveraging creative technologies to craft visually compelling solutions that align with the unique goals of projects, brands, and stakeholders.         
           </p>
         </section>
       </div>
